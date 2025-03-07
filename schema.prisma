@@ -1,0 +1,154 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  user
+  admin
+}
+
+enum Status {
+  pending
+  shipped
+  delivered
+}
+
+model User {
+  userId     String     @id @default(uuid())
+  firstname  String     @map("first_name")
+  lastname   String     @map("last_name")
+  email      String     @unique
+  password   String
+  avatar     String?
+  role       Role       @default(user)
+  phoneNo    String?
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+  orders     Order[]
+  reviews    Review[]
+  cart       Cart?
+  deliveries Delivery[]
+}
+
+model Product {
+  id            String      @id @default(uuid())
+  name          String
+  description   String
+  currentPrice  Float
+  previousPrice Float? // Optional for discounts
+  categoryId    String
+  stock         Int
+  images        String[] // Array of image URLs
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  reviews       Review[]
+  variants      Variant[]
+  cartItems     CartItem[]
+  OrderItem     OrderItem[]
+  category      Category    @relation(fields: [categoryId], references: [id])
+}
+
+model Category {
+  id          String    @id @default(uuid())
+  name        String    @unique
+  description String?
+  products    Product[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Order {
+  id          String      @id @default(uuid())
+  userId      String
+  user        User        @relation(fields: [userId], references: [userId])
+  totalAmount Float
+  status      Status      @default(pending) // "pending", "shipped", "delivered"
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  orderItems  OrderItem[]
+  Payment     Payment[]
+  deliveries  Delivery[]
+}
+
+model OrderItem {
+  id        String  @id @default(uuid())
+  orderId   String
+  productId String
+  quantity  Int
+  product   Product @relation(fields: [productId], references: [id])
+  order     Order   @relation(fields: [orderId], references: [id])
+}
+
+model Review {
+  id         String   @id @default(uuid())
+  productId  String
+  userId     String
+  starRating Float    @default(1)
+  comment    String
+  product    Product  @relation(fields: [productId], references: [id])
+  user       User     @relation(fields: [userId], references: [userId])
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Cart {
+  id        String     @id @default(uuid())
+  userId    String     @unique
+  user      User       @relation(fields: [userId], references: [userId])
+  cartItems CartItem[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model CartItem {
+  id        String  @id @default(uuid())
+  cartId    String
+  productId String
+  quantity  Int
+  cart      Cart    @relation(fields: [cartId], references: [id])
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model Variant {
+  id          String   @id @default(uuid())
+  productId   String
+  variantName String
+  variations  String[]
+  product     Product  @relation(fields: [productId], references: [id])
+}
+
+model Payment {
+  id            String   @id @default(uuid())
+  orderId       String
+  paymentMethod String // "credit_card", "paypal", etc.
+  paymentDate   DateTime
+  status        String // "completed", "pending", "failed"
+  order         Order    @relation(fields: [orderId], references: [id])
+}
+
+model Delivery {
+  id          String   @id @default(uuid())
+  trackNumber String   @default(cuid())
+  orderId     String
+  userId      String
+  address     String
+  city        String
+  postalCode  String
+  country     String //"Tanzania", "Kenya", "Uganda"
+  status      String // "pending", "shipped", "delivered", "cancelled"
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  order       Order    @relation(fields: [orderId], references: [id])
+  user        User     @relation(fields: [userId], references: [userId])
+}

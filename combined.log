@@ -1,0 +1,241 @@
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all products"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all products"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all products"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"clientVersion":"6.2.1","level":"error","message":"Error: \nInvalid `prisma.user.findUnique()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1","name":"PrismaClientInitializationError","stack":"PrismaClientInitializationError: \nInvalid `prisma.user.findUnique()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1\n    at Vn.handleRequestError (C:\\Users\\De-Scientist\\Desktop\\REAL\\Vice-Queen-Server\\node_modules\\@prisma\\client\\runtime\\library.js:121:7640)\n    at Vn.handleAndLogRequestError (C:\\Users\\De-Scientist\\Desktop\\REAL\\Vice-Queen-Server\\node_modules\\@prisma\\client\\runtime\\library.js:121:6663)\n    at Vn.request (C:\\Users\\De-Scientist\\Desktop\\REAL\\Vice-Queen-Server\\node_modules\\@prisma\\client\\runtime\\library.js:121:6370)\n    at async l (C:\\Users\\De-Scientist\\Desktop\\REAL\\Vice-Queen-Server\\node_modules\\@prisma\\client\\runtime\\library.js:130:9617)\n    at async Object.loginController (file:///C:/Users/De-Scientist/Desktop/REAL/Vice-Queen-Server/src/controllers/login.controllers.js:25:19)"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all products"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all products"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all products"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"error","message":"Failed to fetch all products: PrismaClientInitializationError: \nInvalid `prisma.product.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nerror: Environment variable not found: DATABASE_URL.\n  -->  schema.prisma:13\n   | \n12 |   provider = \"postgresql\"\n13 |   url      = env(\"DATABASE_URL\")\n   | \n\nValidation Error Count: 1"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`."}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`."}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`."}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`."}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`."}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Failed to fetch categories: PrismaClientInitializationError: \nInvalid `prisma.category.findMany()` invocation:\n\n\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`."}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Products found "}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Products found "}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Products found "}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Products found "}
+{"level":"info","message":"Invalid login attempt for email: gitaumark502@gmail.com"}
+{"level":"error","message":"Error: Cannot read properties of null (reading 'password')","stack":"TypeError: Cannot read properties of null (reading 'password')\n    at Object.loginController (file:///C:/Users/De-Scientist/Desktop/REAL/Vice-Queen-Server/src/controllers/login.controllers.js:33:71)"}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Fetching all products"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Fetching all categories"}
+{"level":"info","message":"Categories found: "}
+{"level":"info","message":"Products found "}
